@@ -50,7 +50,6 @@ group :development do
 end
 
 gem 'kaminari'
-
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
 source 'https://rails-assets.org' do
