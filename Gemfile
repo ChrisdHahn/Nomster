@@ -48,8 +48,9 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
-
+#simple form for well, simple forms
 gem 'simple_form'
+
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
 source 'https://rails-assets.org' do
@@ -60,8 +61,16 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "font-awesome-rails"
+#devise for users
 gem 'devise'
+#Geocoder for lat & long translation
 gem 'geocoder'
+#Figaro used to add values to ENV on localhost
 gem 'figaro'
+#carrierwave to upload photos
 gem 'carrierwave', '~> 1.0'
+#kaminari used for paging
+gem 'kaminari'
+#Masonry used for layouts and images
+gem 'masonry-rails'
 
