@@ -3,11 +3,14 @@
     <i><%= @place.address %></i>
  <br/>
   <p><%= @place.description %></p>
-
-
-
-  </head>
-
+  <div class="float-right">
+      <% if current_user && current_user == @place.user %>
+      <%= link_to 'Edit', edit_place_path(@place), class: 'btn btn-primary' %>
+      <%= link_to 'Destroy', place_path(@place), method: :delete, data: {confirm: 'Are you sure you want to delete this?'},class: 'btn btn-danger' %>
+      <% end %>
+  </div>
+  <br/>
+  <br/>
   <div id="map"></div>
 
  <% if @place.latitude.present? && @place.longitude.present? %>
@@ -35,6 +38,8 @@
 
 </script>
 <% end %>
+
+
 </div>
 <!-- Photos Section -->
 <div class="booyah-box col-10 offset-1">
@@ -54,13 +59,6 @@
   <br/>
     <button type="button" class="btn btn-primary btn-small float-right" data-toggle="modal" data-target="#PictureModal">Add a Picture</button>
   <br/>
-  <br/>
-  <div class="float-right">
-      <% if current_user && current_user == @place.user %>
-      <%= link_to 'Edit', edit_place_path(@place), class: 'btn btn-primary' %>
-      <%= link_to 'Destroy', place_path(@place), method: :delete, data: {confirm: 'Are you sure you want to delete this?'},class: 'btn btn-danger' %>
-      <% end %>
-      </div>
   <br/>
 </div>
 
