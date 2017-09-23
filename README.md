@@ -17,4 +17,4 @@ I implemented:
 - Masonry Gem
 - Kaminari (Through some JavaScript code)
 
-This app is allowed to be seen [Nomster](https://nomster-chris-hahn.herokuapp.com)
+This app is allowed to be seen here: [Nomster](https://nomster-chris-hahn.herokuapp.com)
