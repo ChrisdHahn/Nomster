@@ -1,3 +1,18 @@
 // Place all the styles related to the photo controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.photo-heading {
+  margin-bottom: 2rem;
+  text-align: center
+}
+
+.photo-picture {
+  width: 100%;
+  height: auto;
+}
+
+.photo-caption {
+  text-align: center;
+}
