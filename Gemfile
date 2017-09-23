@@ -73,4 +73,3 @@ gem 'carrierwave', '~> 1.0'
 gem 'kaminari'
 #Masonry used for layouts and images
 gem 'masonry-rails'
-
