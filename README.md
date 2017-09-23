@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Nomster is one of the apps that I created under the guidance of The Firehose Project. It's kind of like a Yelp clone, but broken down in a much simpler format.
 
-Things you may want to cover:
+It focuses on the following skills:
+-Ruby on Rails Framework
+-User Comments
+-Star rating system
+-Image uploading through carrierwave
+-User authentication
+-Integrating Google Map API
+-Pagination
 
-* Ruby version
+Although it was supposed to be a simple app, I added some features on my own after finishing the project.
 
-* System dependencies
+I implemented:
+-Masonry Gem
+-Kaminari (Through some JavaScript code)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This app is allowed to be seen [Nomster](https://nomster-chris-hahn.herokuapp.com)
